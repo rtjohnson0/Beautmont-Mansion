@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "name": "Beverly Hills, CA",
+      "price": "10,000,000",
+      "description": "A spectacular generational estate envisioned by a master who elevates luxury to the next level. This extremely private and very rare nearly 3 acre property is located down a private lane in the most prime section of Beverly Hills. The home has been constructed with the most exquisite taste showcasing rare and decadent materials with sensational views and stunning light quality throughout.",
+      "url": "https://www.mansionglobal.com/listings/5113451-1210-benedict-canyon-dr-90210?mod=mg_search_united-states_california_beverly-hills&pos=1&page=1&",
+      "image": "img/house.jpg",
+      "beds": 10,
+      "bath": 15
+    },
+    {
+        "name": "Vail , CO",
+        "price": "45,000,000",
+        "description": " Designed with glass view corridors and sliding walls that seamlessly flow the living area into the exterior decks, patios and gardens. Over 6,500 square feet of outdoor heated decks, biometric recognition entry and entertaining roof deck completes this one of a kind residence in Vail Village, providing your own private retreat. Contact us today for more information on this luxurious home.",
+        "url": "https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fma356kzp824j4pe2p2s4c0e1b5i215&option=N&permitphotoenlargement=false&w=1024",
+        "image": "img/bayarea.jpeg",
+        "beds": 6,
+        "bath": 7.5
+    },
+    {
+        "name": "Seattle, WA",
+        "price": "7,000,000",
+        "description": "A spectacular generational estate envisioned by a master who elevates luxury to the next level. This extremely private and very rare nearly 3 acre property is located down a private lane in the most prime section of Beverly Hills. The home has been constructed with the most exquisite taste showcasing rare and decadent materials with sensational views and stunning light quality throughout.",
+        "url": "https://www.mansionglobal.com/listings/5113451-1210-benedict-canyon-dr-90210?mod=mg_search_united-states_california_beverly-hills&pos=1&page=1&",
+        "image": "img/Seattle.jpeg",
+        "beds": 10,
+        "bath": 15
+    },
+    {
+        "name": "Denver, CO",
+        "price": "10,000,000",
+        "description": "A spectacular generational estate envisioned by a master who elevates luxury to the next level. This extremely private and very rare nearly 3 acre property is located down a private lane in the most prime section of Beverly Hills. The home has been constructed with the most exquisite taste showcasing rare and decadent materials with sensational views and stunning light quality throughout.",
+        "url": "https://www.mansionglobal.com/listings/5113451-1210-benedict-canyon-dr-90210?mod=mg_search_united-states_california_beverly-hills&pos=1&page=1&",
+        "image": "img/Vail.jpeg",
+        "beds": 10,
+        "bath": 15
+    },
+    {
+        "name": "San Diego, CA",
+        "price": "10,000,000",
+        "description": "A spectacular generational estate envisioned by a master who elevates luxury to the next level. This extremely private and very rare nearly 3 acre property is located down a private lane in the most prime section of Beverly Hills. The home has been constructed with the most exquisite taste showcasing rare and decadent materials with sensational views and stunning light quality throughout.",
+        "url": "https://www.mansionglobal.com/listings/5113451-1210-benedict-canyon-dr-90210?mod=mg_search_united-states_california_beverly-hills&pos=1&page=1&",
+        "image": "img/SanDiego.jpeg",
+        "beds": 10,
+        "bath": 15
+    },
+    {
+        "name": "Aspen, CO",
+        "price": "10,000,000",
+        "description": "A spectacular generational estate envisioned by a master who elevates luxury to the next level. This extremely private and very rare nearly 3 acre property is located down a private lane in the most prime section of Beverly Hills. The home has been constructed with the most exquisite taste showcasing rare and decadent materials with sensational views and stunning light quality throughout.",
+        "url": "https://www.mansionglobal.com/listings/5113451-1210-benedict-canyon-dr-90210?mod=mg_search_united-states_california_beverly-hills&pos=1&page=1&",
+        "image": "img/snowCol.jpeg",
+        "beds": 10,
+        "bath": 15
+    }
+    
+  ]
+}
+
+

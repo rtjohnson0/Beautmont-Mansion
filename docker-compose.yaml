@@ -1,0 +1,66 @@
+version: '3.3'
+
+# Define services
+services:
+
+  # App backend service
+  api:
+    # Configuration for building the docker image for the backend service
+    container_name: ita-final
+    build:
+      context: Api
+  
+      dockerfile: Dockerfile
+    stdin_open: true
+    ports:
+      - "8080:8080" # Forward the exposed port 8000 on the container to port 8000 on the host machine
+ 
+    restart: always
+    depends_on: 
+      - database # Starts mysql db first
+    networks:
+      - backend
+    tty: true
+
+  # App frontend service
+  webclient:
+    container_name: ita-client
+    build:
+      context: Client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: always
+    depends_on: 
+      - database
+      - api
+    networks:
+      - backend
+    tty: true
+
+  # Database Service
+  database:
+    environment: 
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_HOST: ${MYSQL_HOST}
+    
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    
+
+    container_name: ita-database
+    ports:
+      - "13306:3306"
+    
+    restart: always
+    build:
+      context: Work
+      dockerfile: Dockerfile
+    networks:
+      - backend
+    tty: true
+    volumes:
+      - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
+
+# Networks to be created to facilitate communication between containers
+networks:
+  backend:
